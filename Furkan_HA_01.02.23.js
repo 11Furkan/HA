@@ -14,9 +14,11 @@ console.log(
 /**
  * 2. Schreiben Sie ein JavaScript-Programm, um den String 'Techstarter' periodisch alle 2 Sekunden auf die Konsole anzuzeigen.
  */
-console.log("Techstarter")
 
+const interval = setInterval(() => console.log("Techstarter"), 2000)
+const clearInterval(interval);
 
+//console.log("Techstarter".repeat(10));
 
 
 /**
